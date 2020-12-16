@@ -1,0 +1,490 @@
+/*
+
+first colour :  #08526d
+seconff colour : #ec1c23
+*/
+/* start upper nav*/
+.upper-bar{
+
+	background-color:  #08526d;
+	color:#fff;
+
+    padding: 10px;
+
+
+}
+.upper-bar span {
+
+	
+	color:#bfc6c9;
+
+
+}
+
+.upper-bar .get-quote{
+	display: inline-block;
+	border: 1px;
+	padding: 2px 20px;
+	margin-left:20px; 
+
+}
+/* end upper nav*/
+/* start  nav*/
+.navbar-brand span    {
+
+	font-size: 40px !important ;
+
+}
+
+.navbar-brand span:first-child{
+
+color: #08526d;
+font-weight: bold;
+
+
+} 
+.navbar-brand span:last-child{
+
+color: #ec1c23
+
+
+} 
+.navbar-light .navbar-nav .nav-link {
+	
+
+	font-size:16px;
+	text-transform: uppercase;
+	margin-left:20px ;  
+	color:#08526d  ;
+
+}
+ .navbar-nav .active>.nav-link {
+	color: #ec1c23 !important;
+
+}
+	
+/* end  nav*/
+/* start slider */
+.slider{
+	background-color:  #08526d;
+
+
+
+}
+.slider .carousel-inner  h1 {
+	position: absolute;
+    color: #fff;
+    z-index: 3;
+    font-size: 70px;
+    max-width: 900px;
+}
+.slider .carousel-inner{
+
+	display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.slider .carousel-inner  h1 span   {
+	
+
+background-color: #ec1c23;
+color:#fff;
+display: inline-block;
+margin-top: 12px;  
+
+padding: 5px 10px 21px 10px;
+
+	}
+
+
+
+.slider .carousel-inner .overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color:rgb(0 0 0 / .6);
+	z-index: 2; 
+
+
+
+
+}
+.slider .carousel-item {
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+
+}
+.slider .carousel-one{
+	
+	background-image: url('../img/me.jpg');
+
+}
+
+.slider .carousel-two {
+	background-image: url('../img/ahmed1.jpg');
+}
+.slider .carousel-three {
+	background-image: url('../img/ahmed.jpg');
+}
+.slide .carousel-indicators li {
+
+height: 8px;	
+cursor: pointer;
+}
+
+
+/* end slider */
+/*  start featurer*/
+.featurer{
+
+
+	padding:50px ;
+}
+.featurer i {
+	background-color: #ed1d24;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+
+}	
+.featurer h3 {
+	color: #08526d;
+	font-size: 20px;
+}
+
+
+
+
+/*  end  featurer*/
+/*  start  overview*/
+
+.overview{
+
+	padding: 100px 0;
+	background-color: #f0f5f7; 
+}
+.overview h2 {
+	    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 20px;
+    margin-bottom: 20px;
+	
+
+
+	}
+.overview p {
+	   
+	
+line-height: 2px;
+font-size: 20px;
+width: 93%;
+margin: 0 auto 20px;
+	color: #6a6a6a;	
+
+	}
+.overview h4 {
+	   
+	
+letter-spacing: 2px;
+    color: #217090;
+    margin-bottom: 20px;
+
+	}
+	.overview button  {
+	   
+	background: red;
+    color: white;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid;
+
+
+	}
+
+
+
+/*  end  overview*/
+/* start feature */
+.feature{
+	padding:100px;
+
+
+
+}
+.feature h2 {
+	    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 20px;
+    margin-bottom: 20px;
+	
+	}
+.feature p {
+	   
+	
+line-height: 2px;
+font-size: 20px;
+width: 93%;
+margin: 27px auto 20px;
+	color: #6a6a6a;	
+
+	}
+.feature ul{
+margin-top: 40px;
+margin-bottom: 50px; 
+
+
+
+	}
+.feature ul li {
+	color: #08526d;
+    border: 2px solid #08526d;
+    margin-left: 10px;
+
+
+}	
+.feature ul li.active, 
+ .feature ul li:hover{
+	background-color: #ec1c23;
+	border: 2px solid #ec1c23;
+	color: white;
+
+	
+}	
+.feature ul li:hover{
+	cursor: pointer;
+	}
+
+
+/* end feature */ 
+/* start img */
+
+
+.feature .row{
+	padding-bottom:5px;
+}
+
+
+.feature .shuffle-img .row .col-sm{
+	padding-bottom:20px;
+	margin: 0px;
+	}
+
+
+/* end img */
+/* start  post */ 
+.post{
+	padding: 0 0 100px;
+
+
+
+}
+.post h2 {
+	    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 20px;
+    margin-bottom: 20px;
+	
+	}
+	.post h6 {
+	    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 20px;
+    margin-bottom: 20px;
+	    padding-top: 7px;
+	
+	}
+.post p {
+	   
+	
+line-height: 27px;
+font-size: 20px;
+width: 93%;
+margin: 27px auto 20px;
+	color: #6a6a6a;	
+
+	}
+.post .card-img-top{
+
+max-width: 300px; 
+
+}
+
+/* end post */
+/*  start test */
+.test {
+
+
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-image: url('../img/ahmed1.jpg');
+
+	position:relative;
+	margin-top: 100px; 
+
+
+}
+.carousel {
+    position: relative;
+    margin-top: -150px;
+}
+.test .overlay{
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color:rgb(0 0 0 / .6);
+	z-index: 2; 
+}
+.test .container {
+	    position: relative;
+    z-index: 10;
+}
+.test .carousel-caption {
+	margin-top: 20px;
+}
+.test .carousel-caption img{
+	margin-bottom: 20px;
+}
+.test .carousel-caption h3{
+	margin-bottom: 10px;
+}
+.test .carousel-caption p{
+		font-size: 15px;
+}
+
+
+/* end test */
+/* start  price */
+
+/* start  post */ 
+.price{
+	padding-top: 100px;
+background-color: #f7f7f7;
+
+
+
+}
+.price h2{
+
+font-weight:  bold;	
+font-size: 50px;
+padding-bottom: 20px;
+
+}
+.price .card{
+
+	margin-top: 20px;
+}
+.price .card-title{
+
+	font-size: 25px;
+}
+.price .card-text{
+
+	background-color: #f7f7f7;
+
+	}
+	.price .card-text   span  {
+		text-transform: uppercase;
+    font-size: 10px;
+}
+
+	
+	}
+.price h3 {
+	    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 20px;
+    margin-bottom: 20px;
+	color:  #08526d;
+	font-weight:  bold;	
+	}
+	.price h6 {
+	    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 10px;
+    margin-bottom: 20px;
+	    padding-top: 7px;
+	
+	}
+.price .card p {
+	   
+	
+line-height: 27px;
+font-size: 20px;
+width: 93%;
+margin: 27px auto 20px;
+	color:  #08526d;	
+	font-weight:  bold;	
+
+	}
+.price .card-img-top{
+
+max-width: 300px; 
+
+}
+.price .card .card-link{ 
+	color: #fff;
+	font-weight: bold;
+	display: inline-block; 
+	background-color: red;
+	padding: 4px 15px;
+
+	}
+.price .card.corporate .card-link{ 
+		background-color: #08526d ;
+
+
+
+	}
+.price .card.corporate .card-text{
+background-color: #ec1c23;
+color: #fff;
+
+
+}
+/* end price*/
+/* go please and do your pest and fall is a begin and you must continue to the world ahmed hassn is a f=d= */
+/* strart choose ud */
+.choose_us .row{
+
+	padding-top: 60px;
+}
+.choose_us img{
+
+
+	max-width: 100%;
+}
+.choose_us .col-6:last-child{
+
+background-color: #08526d;
+color: white;
+
+}
+.choose_us h2 {
+
+	margin-top:40px;
+} 
+.choose_us .read-more{
+
+
+	display: inline-block;
+	padding: 8px 20px ;
+	margin: 100px 0  0 40px;
+	background-color: #2d1d24;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/*end choose ud*/ 
